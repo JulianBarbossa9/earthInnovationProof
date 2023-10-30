@@ -19,5 +19,5 @@ First make a copy of the repository on your local or download:
 
 
 
-NOTE: After downloading the repository take the paths index.html and tableCountry.html drag it to the browser and you will see the results.
+NOTE: after downloading the repository take the paths index.html that corresponds to the first part of the test and tableCountry.html that corresponds to the second part of the test, to see the results drag the files to the browser and you will see the results.
 
