@@ -1,0 +1,105 @@
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #88745c;
+  color: white;
+}
+
+/* Style the div */
+div {
+  margin: 10px 0; 
+
+/* Style the label */
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Style the select element */
+select {
+  padding: 5px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  width: 150px;
+}
+
+/* Style the options within the select */
+select option {
+  font-weight: normal; /* Remove bold font for options */
+}
+
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.filter-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.filter-container label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.filter-container input[type="text"],
+.filter-container input[type="number"],
+.filter-container select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.filter-container select {
+  background-color: #fff;
+  width: 100px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Establece la altura mínima de la ventana del navegador */
+  margin: 0;
+}
+
+.container {
+  flex: 1; /* El contenido ocupará todo el espacio disponible */
+  /* Agrega estilos para tu contenido si es necesario */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
